@@ -1,4 +1,4 @@
-[**@bates-solutions/clover API Reference v1.0.0**](../../README.md)
+[**@bates-solutions/clover API Reference v1.0.3**](../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: CloverPaymentError
 
-Defined in: [core/errors.ts:90](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/errors.ts#L90)
+Defined in: [core/errors.ts:90](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/errors.ts#L90)
 
 Payment processing errors (card declines, etc.)
 
@@ -20,7 +20,7 @@ Payment processing errors (card declines, etc.)
 
 > **new CloverPaymentError**(`message`, `code?`, `options?`): `CloverPaymentError`
 
-Defined in: [core/errors.ts:98](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/errors.ts#L98)
+Defined in: [core/errors.ts:98](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/errors.ts#L98)
 
 #### Parameters
 
@@ -64,7 +64,7 @@ Defined in: [core/errors.ts:98](https://github.com/mbates/clover/blob/592e3fabe4
 
 > `readonly` `optional` **chargeId?**: `string`
 
-Defined in: [core/errors.ts:91](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/errors.ts#L91)
+Defined in: [core/errors.ts:91](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/errors.ts#L91)
 
 ***
 
@@ -72,7 +72,7 @@ Defined in: [core/errors.ts:91](https://github.com/mbates/clover/blob/592e3fabe4
 
 > `readonly` `optional` **cloverCode?**: `string`
 
-Defined in: [core/errors.ts:94](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/errors.ts#L94)
+Defined in: [core/errors.ts:94](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/errors.ts#L94)
 
 Clover's own error code, when present
 
@@ -82,7 +82,7 @@ Clover's own error code, when present
 
 > `readonly` **code**: [`CloverErrorCode`](../type-aliases/CloverErrorCode.md)
 
-Defined in: [core/errors.ts:23](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/errors.ts#L23)
+Defined in: [core/errors.ts:23](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/errors.ts#L23)
 
 #### Inherited from
 
@@ -94,7 +94,7 @@ Defined in: [core/errors.ts:23](https://github.com/mbates/clover/blob/592e3fabe4
 
 > `readonly` `optional` **declineCode?**: `string`
 
-Defined in: [core/errors.ts:92](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/errors.ts#L92)
+Defined in: [core/errors.ts:92](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/errors.ts#L92)
 
 ***
 
@@ -102,7 +102,7 @@ Defined in: [core/errors.ts:92](https://github.com/mbates/clover/blob/592e3fabe4
 
 > `readonly` `optional` **details?**: `unknown`
 
-Defined in: [core/errors.ts:25](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/errors.ts#L25)
+Defined in: [core/errors.ts:25](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/errors.ts#L25)
 
 #### Inherited from
 
@@ -114,7 +114,7 @@ Defined in: [core/errors.ts:25](https://github.com/mbates/clover/blob/592e3fabe4
 
 > `readonly` `optional` **requestId?**: `string`
 
-Defined in: [core/errors.ts:96](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/errors.ts#L96)
+Defined in: [core/errors.ts:96](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/errors.ts#L96)
 
 Request id for tracing with Clover support
 
@@ -124,7 +124,7 @@ Request id for tracing with Clover support
 
 > `readonly` `optional` **statusCode?**: `number`
 
-Defined in: [core/errors.ts:24](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/errors.ts#L24)
+Defined in: [core/errors.ts:24](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/errors.ts#L24)
 
 #### Inherited from
 

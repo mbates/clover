@@ -1,4 +1,4 @@
-[**@bates-solutions/clover API Reference v1.0.0**](../../README.md)
+[**@bates-solutions/clover API Reference v1.0.3**](../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **formatMoney**(`cents`, `currency?`, `locale?`): `string`
 
-Defined in: [core/utils.ts:56](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/utils.ts#L56)
+Defined in: [core/utils.ts:56](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/utils.ts#L56)
 
 Format money for display.
 

@@ -1,4 +1,4 @@
-[**@bates-solutions/clover API Reference v1.0.0**](../../README.md)
+[**@bates-solutions/clover API Reference v1.0.3**](../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: CloverValidationError
 
-Defined in: [core/errors.ts:115](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/errors.ts#L115)
+Defined in: [core/errors.ts:115](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/errors.ts#L115)
 
 Validation errors for input this wrapper checks before calling Clover
 
@@ -20,7 +20,7 @@ Validation errors for input this wrapper checks before calling Clover
 
 > **new CloverValidationError**(`message`, `field?`): `CloverValidationError`
 
-Defined in: [core/errors.ts:118](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/errors.ts#L118)
+Defined in: [core/errors.ts:118](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/errors.ts#L118)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: [core/errors.ts:118](https://github.com/mbates/clover/blob/592e3fabe
 
 > `readonly` **code**: [`CloverErrorCode`](../type-aliases/CloverErrorCode.md)
 
-Defined in: [core/errors.ts:23](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/errors.ts#L23)
+Defined in: [core/errors.ts:23](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/errors.ts#L23)
 
 #### Inherited from
 
@@ -58,7 +58,7 @@ Defined in: [core/errors.ts:23](https://github.com/mbates/clover/blob/592e3fabe4
 
 > `readonly` `optional` **details?**: `unknown`
 
-Defined in: [core/errors.ts:25](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/errors.ts#L25)
+Defined in: [core/errors.ts:25](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/errors.ts#L25)
 
 #### Inherited from
 
@@ -70,7 +70,7 @@ Defined in: [core/errors.ts:25](https://github.com/mbates/clover/blob/592e3fabe4
 
 > `readonly` `optional` **field?**: `string`
 
-Defined in: [core/errors.ts:116](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/errors.ts#L116)
+Defined in: [core/errors.ts:116](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/errors.ts#L116)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [core/errors.ts:116](https://github.com/mbates/clover/blob/592e3fabe
 
 > `readonly` `optional` **statusCode?**: `number`
 
-Defined in: [core/errors.ts:24](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/errors.ts#L24)
+Defined in: [core/errors.ts:24](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/errors.ts#L24)
 
 #### Inherited from
 

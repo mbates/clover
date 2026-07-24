@@ -1,4 +1,4 @@
-[**@bates-solutions/clover API Reference v1.0.0**](../../README.md)
+[**@bates-solutions/clover API Reference v1.0.3**](../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: CreateRefundOptions
 
-Defined in: [core/services/refunds.service.ts:22](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/services/refunds.service.ts#L22)
+Defined in: [core/services/refunds.service.ts:22](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/services/refunds.service.ts#L22)
 
 Options for creating a refund.
 
@@ -16,7 +16,7 @@ Options for creating a refund.
 
 > `optional` **amount?**: `number`
 
-Defined in: [core/services/refunds.service.ts:26](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/services/refunds.service.ts#L26)
+Defined in: [core/services/refunds.service.ts:26](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/services/refunds.service.ts#L26)
 
 Amount in cents. Omit for a full refund.
 
@@ -26,7 +26,7 @@ Amount in cents. Omit for a full refund.
 
 > **chargeId**: `string`
 
-Defined in: [core/services/refunds.service.ts:24](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/services/refunds.service.ts#L24)
+Defined in: [core/services/refunds.service.ts:24](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/services/refunds.service.ts#L24)
 
 The charge to refund
 
@@ -36,7 +36,7 @@ The charge to refund
 
 > `optional` **idempotencyKey?**: `string`
 
-Defined in: [core/services/refunds.service.ts:29](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/services/refunds.service.ts#L29)
+Defined in: [core/services/refunds.service.ts:29](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/services/refunds.service.ts#L29)
 
 ***
 
@@ -44,6 +44,6 @@ Defined in: [core/services/refunds.service.ts:29](https://github.com/mbates/clov
 
 > `optional` **reason?**: `string`
 
-Defined in: [core/services/refunds.service.ts:28](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/services/refunds.service.ts#L28)
+Defined in: [core/services/refunds.service.ts:28](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/services/refunds.service.ts#L28)
 
 Reason for the refund

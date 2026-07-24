@@ -1,8 +1,8 @@
-**@bates-solutions/clover API Reference v1.0.0**
+**@bates-solutions/clover API Reference v1.0.3**
 
 ***
 
-# @bates-solutions/clover API Reference v1.0.0
+# @bates-solutions/clover API Reference v1.0.3
 
 ## Modules
 

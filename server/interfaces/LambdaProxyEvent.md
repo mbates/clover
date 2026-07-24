@@ -1,4 +1,4 @@
-[**@bates-solutions/clover API Reference v1.0.0**](../../README.md)
+[**@bates-solutions/clover API Reference v1.0.3**](../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: LambdaProxyEvent
 
-Defined in: [server/middleware/lambda.ts:13](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/server/middleware/lambda.ts#L13)
+Defined in: [server/middleware/lambda.ts:13](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/server/middleware/lambda.ts#L13)
 
 Minimal API Gateway proxy event shape (avoids an aws-lambda dependency).
 
@@ -16,7 +16,7 @@ Minimal API Gateway proxy event shape (avoids an aws-lambda dependency).
 
 > **body**: `string` \| `null`
 
-Defined in: [server/middleware/lambda.ts:16](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/server/middleware/lambda.ts#L16)
+Defined in: [server/middleware/lambda.ts:16](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/server/middleware/lambda.ts#L16)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [server/middleware/lambda.ts:16](https://github.com/mbates/clover/bl
 
 > `optional` **headers?**: `Record`\<`string`, `string` \| `undefined`\> \| `null`
 
-Defined in: [server/middleware/lambda.ts:15](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/server/middleware/lambda.ts#L15)
+Defined in: [server/middleware/lambda.ts:15](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/server/middleware/lambda.ts#L15)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [server/middleware/lambda.ts:15](https://github.com/mbates/clover/bl
 
 > **httpMethod**: `string`
 
-Defined in: [server/middleware/lambda.ts:14](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/server/middleware/lambda.ts#L14)
+Defined in: [server/middleware/lambda.ts:14](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/server/middleware/lambda.ts#L14)
 
 ***
 
@@ -40,4 +40,4 @@ Defined in: [server/middleware/lambda.ts:14](https://github.com/mbates/clover/bl
 
 > `optional` **isBase64Encoded?**: `boolean`
 
-Defined in: [server/middleware/lambda.ts:17](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/server/middleware/lambda.ts#L17)
+Defined in: [server/middleware/lambda.ts:17](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/server/middleware/lambda.ts#L17)

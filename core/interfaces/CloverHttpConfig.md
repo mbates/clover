@@ -1,4 +1,4 @@
-[**@bates-solutions/clover API Reference v1.0.0**](../../README.md)
+[**@bates-solutions/clover API Reference v1.0.3**](../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: CloverHttpConfig
 
-Defined in: [core/http.ts:23](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/http.ts#L23)
+Defined in: [core/http.ts:23](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/http.ts#L23)
 
 Configuration for the Clover HTTP client.
 
@@ -16,7 +16,7 @@ Configuration for the Clover HTTP client.
 
 > **apiToken**: `string`
 
-Defined in: [core/http.ts:25](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/http.ts#L25)
+Defined in: [core/http.ts:25](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/http.ts#L25)
 
 Clover API token (OAuth access token or API key)
 
@@ -26,7 +26,7 @@ Clover API token (OAuth access token or API key)
 
 > **environment**: [`CloverEnvironment`](../type-aliases/CloverEnvironment.md)
 
-Defined in: [core/http.ts:29](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/http.ts#L29)
+Defined in: [core/http.ts:29](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/http.ts#L29)
 
 Environment (default `sandbox`)
 
@@ -36,7 +36,7 @@ Environment (default `sandbox`)
 
 > `optional` **fetchImpl?**: \{(`input`, `init?`): `Promise`\<`Response`\>; (`input`, `init?`): `Promise`\<`Response`\>; \}
 
-Defined in: [core/http.ts:31](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/http.ts#L31)
+Defined in: [core/http.ts:31](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/http.ts#L31)
 
 Override the `fetch` implementation (mainly for tests)
 
@@ -86,6 +86,6 @@ Override the `fetch` implementation (mainly for tests)
 
 > `optional` **merchantId?**: `string`
 
-Defined in: [core/http.ts:27](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/http.ts#L27)
+Defined in: [core/http.ts:27](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/http.ts#L27)
 
 Merchant id — required for platform (`/v3/merchants/{mId}`) endpoints

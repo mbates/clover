@@ -1,4 +1,4 @@
-[**@bates-solutions/clover API Reference v1.0.0**](../../README.md)
+[**@bates-solutions/clover API Reference v1.0.3**](../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: VerifyOptions
 
-Defined in: [server/types.ts:27](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/server/types.ts#L27)
+Defined in: [server/types.ts:27](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/server/types.ts#L27)
 
 Options controlling signature verification.
 
@@ -20,7 +20,7 @@ Options controlling signature verification.
 
 > `optional` **tolerance?**: `number`
 
-Defined in: [server/types.ts:33](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/server/types.ts#L33)
+Defined in: [server/types.ts:33](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/server/types.ts#L33)
 
 Maximum allowed difference (seconds) between the signature timestamp and
 now. Set to `0` to disable the timestamp check.

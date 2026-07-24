@@ -1,4 +1,4 @@
-[**@bates-solutions/clover API Reference v1.0.0**](../../README.md)
+[**@bates-solutions/clover API Reference v1.0.3**](../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: PaymentsService
 
-Defined in: [core/services/payments.service.ts:49](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/services/payments.service.ts#L49)
+Defined in: [core/services/payments.service.ts:49](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/services/payments.service.ts#L49)
 
 Payments service wrapping Clover's Ecommerce
 [charges](https://docs.clover.com/dev/docs/create-a-charge) (`/v1/charges`).
@@ -28,7 +28,7 @@ const charge = await clover.payments.create({
 
 > **new PaymentsService**(`http`): `PaymentsService`
 
-Defined in: [core/services/payments.service.ts:50](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/services/payments.service.ts#L50)
+Defined in: [core/services/payments.service.ts:50](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/services/payments.service.ts#L50)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: [core/services/payments.service.ts:50](https://github.com/mbates/clo
 
 > **capture**(`chargeId`, `options?`): `Promise`\<[`Charge`](../interfaces/Charge.md)\>
 
-Defined in: [core/services/payments.service.ts:104](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/services/payments.service.ts#L104)
+Defined in: [core/services/payments.service.ts:104](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/services/payments.service.ts#L104)
 
 Capture a charge that was created with `capture: false`.
 
@@ -70,7 +70,7 @@ Capture a charge that was created with `capture: false`.
 
 > **create**(`options`): `Promise`\<[`Charge`](../interfaces/Charge.md)\>
 
-Defined in: [core/services/payments.service.ts:58](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/services/payments.service.ts#L58)
+Defined in: [core/services/payments.service.ts:58](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/services/payments.service.ts#L58)
 
 Create a charge.
 
@@ -98,7 +98,7 @@ When the card is declined
 
 > **get**(`chargeId`): `Promise`\<[`Charge`](../interfaces/Charge.md)\>
 
-Defined in: [core/services/payments.service.ts:89](https://github.com/mbates/clover/blob/592e3fabe4288305c56c6720838cf241d5dd7546/src/core/services/payments.service.ts#L89)
+Defined in: [core/services/payments.service.ts:89](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/services/payments.service.ts#L89)
 
 Retrieve a charge by ID.
 
